@@ -1,4 +1,4 @@
-package petstore0;
+package petstore0a;
 
 public abstract class Animal
 {
