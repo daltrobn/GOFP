@@ -5,17 +5,18 @@ public class AnimalFactory
     public static Animal createAnimal(String petName, String petType)
     {
         Animal pet;
+        String sound;
 
         if (petType.equals("Dog")){
             pet = new Animal(petName, petType) {
                 @Override
                 public void moveAround() {
-                    System.out.println();
+                    System.out.println(getName() + " The dog is moving around");
                 }
 
                 @Override
                 public void makeSound() {
-                    System.out.println();
+                    System.out.println("Wooooooof!!!!!!!");
                 }
             };
         }

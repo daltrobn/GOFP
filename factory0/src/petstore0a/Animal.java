@@ -4,6 +4,7 @@ public abstract class Animal
 {
     protected String name;
     protected String type;
+    protected String sound;
     public Animal(String name)
     {
         this.name = name;
